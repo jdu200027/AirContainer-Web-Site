@@ -1,0 +1,86 @@
+[
+    {
+        "id": 0,
+        "name" : "CORAL DC Inverter",
+        "category" : "Product Category",
+        "price" : "100",
+        "imgSrc" : "images/1.png"
+    },
+    {
+        "id": 1,
+        "name" : "LIDER",
+        "category" : "Product Category",
+        "price" : "200",
+        "imgSrc" : "images/2.png"
+    },
+    {
+        "id": 2,
+        "name" : "NOVOT",
+        "category" : "Product Category",
+        "price" : "300",
+        "imgSrc" : "images/3.png"
+    },
+    {
+        "id": 3,
+        "name" : "ALL EASY",
+        "category" : "Product Category",
+        "price" : "300",
+        "imgSrc" : "images/4.png"
+    },
+    {
+        "id": 4,
+        "name" : "LOW ENERGY",
+        "category" : "Product Category",
+        "price" : "500",
+        "imgSrc" : "images/5.png"
+    },
+    {
+        "id": 5,
+        "name" : "SILVER",
+        "category" : "Product Category",
+        "price" : "600",
+        "imgSrc" : "images/6.png"
+    },
+    {
+        "id": 6,
+        "name" : "Seria CROWN",
+        "category" : "Product Category",
+        "price" : "700",
+        "imgSrc" : "images/7.png"
+    },
+    {
+        "id": 7,
+        "name" : "DIAMOND",
+        "category" : "Product Category",
+        "price" : "800",
+        "imgSrc" : "images/8.png"
+    },
+    {
+        "id": 8,
+        "name" : "Interval",
+        "category" : "Product Category",
+        "price" : "900",
+        "imgSrc" : "images/9.png"
+    },
+    {
+        "id": 9,
+        "name": "SILVER DC Easy",
+        "price": 2599,
+        "imgSrc": "images/6.png",
+        "icon": "add fas fa-cart-shopping"
+    },
+    {
+        "id": 10,
+        "name": "Cosmos",
+        "price": 2599,
+        "imgSrc": "images/1.png",
+        "icon": "add fas fa-cart-shopping"
+    },
+    {
+        "id": 11,
+        "name": "DIAMOND",
+        "price": 2599,
+        "imgSrc": "images/3.png",
+        "icon": "add fas fa-cart-shopping"
+    }
+]

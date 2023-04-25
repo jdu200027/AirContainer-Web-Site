@@ -1,0 +1,121 @@
+img{
+    width: 250px;
+    aspect-ratio: 1;
+    outline: 250px / 2 solid #0009;
+    outline-offset: calc(250px / -2);
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0 30px;
+    border-radius: 50%;
+    height: 250px;
+}
+img:hover
+{
+    outline: 8px solid #ffff;
+    outline-offset: 15px;
+    box-shadow: 0px 0px 50px 0px #ffff;
+    width: 260px;
+    height: 260px;
+}
+
+body
+{
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    place-content: center;
+    place-items: center;
+    background: black;
+}
+h4
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: transparent;
+    -webkit-text-stroke: darkmagenta;
+    position: relative;
+    background: #ffff;
+    height: 30px;
+    margin: 22px;
+    padding: 8px 40px 0;
+    content: "ABS";
+
+}
+#ab::before
+{
+    content: "Backend:_Abdurasuli";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    color:rgb(12, 19, 232);
+    border-right: 0px solid darkmagenta;
+    transition: 0.8s ease-in-out;
+}
+#ab:hover::before
+{
+    width: 100%;
+    filter: drop-shadow(0 10 25px darkmagenta);
+}
+#du::before
+{
+    content: "Designer:_Durdona";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    color:darkmagenta;
+    border-right: 0px solid darkmagenta;
+    transition: 0.8s ease-in-out;
+    
+}
+#du:hover::before
+{
+    width: 100%;
+    filter: drop-shadow(0 10 25px darkmagenta);   
+}
+#da::before
+{
+    content: "Frontend:_Davlatjon";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    color:rgb(223, 158, 6);
+    border-right: 0px solid darkmagenta;
+    transition: 0.8s ease-in-out;
+    
+}
+#da:hover::before
+{
+    width: 100%;
+    filter: drop-shadow(0 10 25px darkmagenta);
+}
+.img
+{
+    margin: 30px;
+    clear: both;
+}
+.dvs
+{
+    float: left;
+    margin: 30px;
+}
+a
+{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 3px;
+    border: 1px dashed red; 
+    border-radius:10px;
+}
+a:hover
+{
+    font-size: 19px;
+    color: blue;
+    letter-spacing: 1px;
+    transition: 0.5s ease-in-out;
+    border: 4px dashed red; 
+}
